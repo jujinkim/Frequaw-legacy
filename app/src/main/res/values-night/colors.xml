@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ad_bg">#2A2A2A</color>
+    <color name="reset_color">#BABABA</color>
+    <color name="app_freq_progress">#2A2A2A</color>
+    <color name="background">@android:color/background_dark</color>
+    <color name="text_color">#FFFFFFFF</color>
+
+    <color name="icon_pack_list_bg">#272727</color>
+</resources>

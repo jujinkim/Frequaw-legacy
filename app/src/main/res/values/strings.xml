@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">Frequaw setting</string>
+    <string name="app_name_full">Frequently Used App Widget</string>
+    <string name="app_name_only" translatable="false">Frequaw</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="okay">Okay</string>
+    <string name="ignore">Ignore</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="save_n_close">Save &amp; close</string>
+    <string name="open_default_setting">Open default setting</string>
+    <string name="reset_to_default_setting">Reset to default</string>
+    <string name="reset_to_default_setting_confirm_pd">Do you want to reset settings of widget %d to the default setting? This cannot undo.</string>
+    <string name="default_setting">Default setting</string>
+    <string name="erase_this_widget_setting">Erase this widget\'s setting</string>
+    <string name="erase_this_widget_setting_confirm_pd">Do you want to erase settings of widget %d? After erasing, this widget will follow the default setting. This cannot undo.</string>
+    <string name="widget_pd">Widget(%d)</string>
+    <string name="this_widget_following_default">This widget follows the default setting.</string>
+    <string name="create_new_setting">Create this widget setting</string>
+    <string name="add_new_widget_pd">Add new widget %d</string>
+
+    <string name="header_app_list">App List</string>
+    <string name="header_badge">Badge</string>
+    <string name="header_visualization">Visual customization</string>
+    <string name="header_visualization_advanced">Visual customization(Advanced)</string>
+    <string name="header_general">General</string>
+
+    <string name="app_list_app_list">Filter apps</string>
+    <string name="app_list_app_list_desc">Set the filtering mode, and select apps to be hidden or shown.</string>
+    <string name="app_list_sort_method">Sorting method</string>
+    <string name="app_list_sort_method_latest">Sort by app launch time</string>
+    <string name="app_list_sort_method_frequently">Sort by frequently launched</string>
+    <string name="app_list_sort_direction">Sorting direction</string>
+    <string name="app_list_sort_direction_lt">Left Top</string>
+    <string name="app_list_sort_direction_rt">Right Top</string>
+    <string name="app_list_sort_direction_lb">Left Bottom</string>
+    <string name="app_list_sort_direction_rb">Right Bottom</string>
+    <string name="app_list_show_zero_launched">Show app icons which are never launched.</string>
+    <string name="app_list_show_zero_launched_desc_on">Never launched app icons are also appeared in the widget randomly.</string>
+    <string name="app_list_show_zero_launched_desc_off">Never launched app icons are disappeared in the widget.</string>
+    <string name="app_list_pin_app">Pin apps</string>
+    <string name="app_list_pin_app_desc">Select apps to pin the first of the list.</string>
+    <string name="app_list_last_icon_setting">Add the setting icon</string>
+    <string name="app_list_last_icon_setting_desc">Make the last icon of the widget the icon that enters the settings.</string>
+
+    <string name="sorting_method_frequently">By app launching frequently</string>
+    <string name="sorting_method_time">By last app launched time</string>
+
+    <string name="sorting_direction_tl">Top Left</string>
+    <string name="sorting_direction_tr">Top Right</string>
+    <string name="sorting_direction_bl">Bottom Left</string>
+    <string name="sorting_direction_br">Bottom Right</string>
+    <string name="sorting_direction_rtl_desc">This setting is not affected by RTL layout.</string>
+
+    <string name="badge_enable_badge">Show badge</string>
+    <string name="badge_show_num">Show numbers in badges</string>
+    <string name="badge_show_num_desc_on">Numbers are shown in badges.</string>
+    <string name="badge_show_num_desc_off">Only dots are shown.</string>
+    <string name="badge_color">Badge color</string>
+    <string name="badge_text_color">Text color</string>
+
+    <string name="visual_title_visible">Title bar</string>
+    <string name="visual_title_visible_desc_on">Title bar is shown at the widget.</string>
+    <string name="visual_title_visible_desc_off">Title bar is hidden at the widget.</string>
+    <string name="visual_title_update_time_visible">Show updated time</string>
+    <string name="visual_title_update_time_visible_desc_on">Last updated time is shown at the title of the widget.</string>
+    <string name="visual_title_update_time_visible_desc_off">Last updated time is hidden at the title of the widget.</string>
+    <string name="visual_title_text">Title text</string>
+    <string name="visual_title_text_desc">Set the text that is displayed in the title area.</string>
+    <string name="visual_title_text_empty">(Empty)</string>
+    <string name="visual_advanced_enabled">Advanced widget layout setting</string>
+    <string name="visual_advanced_enabled_desc_on">You can set padding values manually.</string>
+    <string name="visual_advanced_enabled_desc_off">Padding values are adjust automatically by app icon size.</string>
+    <string name="visual_icon_style">App icon style</string>
+    <string name="visual_icon_style_desc">Select app icon shape or apply the icon pack.</string>
+    <string name="visual_icon_size">App icon size</string>
+    <string name="visual_icon_gap">Gap size between icons</string>
+    <string name="visual_icon_gap_set_separately">Set horizontal/vertical gap between app icons separately</string>
+    <string name="visual_icon_gap_horizontal_margin">Horizontal gap size between app icons</string>
+    <string name="visual_icon_gap_vertical_margin">Vertical gap size between app icons</string>
+    <string name="visual_list_margin_set_separately">Set app list horizontal/vertical padding separately</string>
+    <string name="visual_list_margin">App list padding minimum size</string>
+    <string name="visual_list_horizontal_margin">App list horizontal padding minimum size</string>
+    <string name="visual_list_vertical_margin">App list vertical padding minimum size</string>
+    <string name="visual_list_vertical_margin_if_title_only_bottom_desc">If title bar is enabled, top padding is not applied.</string>
+    <string name="visual_list_about_margin">About the minimum size of list padding</string>
+    <string name="visual_list_about_margin_desc">This setting is about the size empty space of Widget\'s edge area.\n Since this setting sets the \"minimum\" size of the space, so the actual area size could be wider than the value set here by other settings(app icon size, gap size between icons, etc.).</string>
+    <string name="visual_bg_color">Background color</string>
+    <string name="visual_bg_color_dark">Background color in Dark mode</string>
+    <string name="visual_bg_corner_radius">Background corner radius</string>
+    <string name="visual_show_app_name">Show app name</string>
+    <string name="visual_app_name_size">App name text size</string>
+    <string name="visual_app_name_margin">Gap size between icon and app name text</string>
+    <string name="visual_app_name_color">App name &amp; text color</string>
+    <string name="visual_app_name_color_dark">App name &amp; text color in Dark mode</string>
+    <string name="visual_app_name_bg">App name background color</string>
+    <string name="visual_set_dark_mode_color">Set colors for Dark mode</string>
+
+    <string name="general_manage_pro_mode">Manage Pro-Mode</string>
+    <string name="general_detect_mode">Sort apps by</string>
+    <string name="general_detect_mode_accessibility">App launching count(Using Accessibility service)</string>
+    <string name="general_detect_mode_usage_stats">App usage time (Using Usage stats information)</string>
+    <string name="general_reset_app_list">Clear all apps launch counts that collected by Frequaw</string>
+    <string name="general_reset_app_each">Clear each app launch history</string>
+    <string name="general_reset_app_list_warning">All apps\' launch counts that Frequaw has collected will be cleared and reset. This can\'t be undo. Continue?</string>
+    <string name="general_reset_app_list_done">App launch history has been cleared.</string>
+    <string name="general_set_launcher_package_name">Set the home launcher package name manually</string>
+    <string name="general_set_launcher_package_name_desc">If the activiated home launcher\'s package name is not the same as default, please enter the home launcher\'s package name that is currently activated. In most cases, you do not need to set this setting.</string>
+    <string name="general_use_original_quality_icon">Use Original-quality icons</string>
+    <string name="general_use_original_quality_icon_desc">NOT RECOMMENDED:\nEnable this to not downsize the image of app icons in the widget. This option will increase the quality of icons but may cause the crash of the app, widget, and service.</string>
+    <string name="general_remove_every_widget_settings">Remove every widget setting</string>
+    <string name="general_remove_every_widget_settings_desc">Remove every widget setting and make all widgets follow the default settings.</string>
+    <string name="general_remove_every_widget_settings_confirm">This will erase all widget-specification settings and make all widgets follow the default settings. This cannot be undone. Do you want to proceed this?</string>
+    <string name="general_accessibility">Accessibility service grant state</string>
+    <string name="general_accessibility_desc">To sort by app launch count, accessibility service permission is required to detect app launch.\nIf permission is granted, the widget will be updated immediately when returning to the home screen.</string>
+    <string name="general_battery_optimization">Battery optimization disabled state</string>
+    <string name="general_battery_optimization_desc">Disabling it could make Frequaw more stable.</string>
+    <string name="general_usage_stats">Usage stats permission state</string>
+    <string name="general_usage_stats_desc">To sort apps by usage time, usage stats permission is required to get apps usage information.</string>
+    <string name="general_export_import_setting">Export &amp; Import setting</string>
+    <string name="general_export_import_setting_desc">You can export the currently configured Frequaw settings and the app launch history that Frequaw has collected, or import the settings and history that have been exported.</string>
+    <string name="general_export_import_setting_export">Export</string>
+    <string name="general_export_import_setting_import">Import</string>
+    <string name="general_export_import_setting_fail_to_export">Export canceled or failed.</string>
+    <string name="general_export_import_setting_fail_to_import">Import canceled or failed.</string>
+    <string name="general_export_import_setting_import_double_check">Are you sure to import the setting? This will overwrite current settings and app launched counts.</string>
+    <string name="general_export_import_exported_done">The setting has been exported.</string>
+    <string name="general_export_import_imported_done">The setting has been imported.</string>
+    <string name="general_export_import_select_setting_file_from_frequaw">Please choose the setting text file that was exported from Frequaw.</string>
+    <string name="general_tutorial">Open tutorial</string>
+    <string name="general_about">About Frequaw</string>
+    <string name="general_detected_parenthesis">(Detected)</string>
+    <string name="general_error_fail_to_open_activity_activitynotfound">Fail to open the setting page. Please open it manually from the device\'s setting.</string>
+    <string name="general_error_fail_to_open_activity_unknown">An unknown error has occurred while open the setting. Please open it manually from the device\'s setting.</string>
+
+    <string name="blocklist">Block list</string>
+    <string name="blocklist_desc">Apps that checked below are not shown in the widget.</string>
+    <string name="allowlist">Allow list</string>
+    <string name="allowlist_desc">Only apps that checked below are shown in the widget.</string>
+    <string name="search_apps">Search apps</string>
+    <string name="filter_mode">Filter mode</string>
+
+    <string name="pin_app_desc">The checked app is pinned to the first of the list, even if the launching count(or usage time) is not enough to appear in the list.\nIf 2 or more apps are checked, they will be sorted as well. \nIf checked apps are filtered so that they do not appear in the widget, they will not appear in the widget even they are checked here.</string>
+
+    <string name="clear_app_history_not_in_list_not_launched">If an app is not listed, it means that the app has no launch or activated history.</string>
+    <string name="clear_app_history_reset_ps_history">Reset %s history</string>
+    <string name="clear_app_history_are_you_sure_to_clear_this_app_ps">Are you sure to clear %s launching history? This can\'t be undo.</string>
+    <string name="clear_app_history_ps_history_cleared">%s\'s launching history has been cleared.</string>
+    <string name="clear_app_history_ps_no_history">%s has no launched history.</string>
+
+    <string name="about_contact">E-mail to the dev team</string>
+    <string name="about_homepage">Open the dev team homepage</string>
+    <string name="about_open_source">Open-source information</string>
+    <string name="about_app_info">Open app information</string>
+    <string name="about_store">Open the store page</string>
+    <string name="about_issue_suggestion">Report bugs or suggestions</string>
+    <string name="about_github_repo">View source code on GitHub</string>
+    <string name="about_special_thanks" translatable="false">Special thanks</string>
+    <string name="about_special_thanks_desc">Thanks to everyone who helped develop this app.\n\n• Marcio de Andrade (Portuguese translation)\n• Quinlan Vannatter (A lot of support)\n• Reviewers\n• And, thank you for using this app.</string>
+    <string name="about_never_send_collected_app_info">Frequaw never sends the collected app launching count data to the server or somewhere.\nThis data is only saved in your device.\nActually, we don\'t have any interest which apps are launched from your device.</string>
+
+    <string name="permission_error_dialog_content">There is some error while getting permission, so widgets are not able to be updated properly. Please check bottom message bers and fix them.</string>
+
+    <string name="accessibility_service_label" translatable="false">Frequaw</string>
+    <string name="accessibility_service_description">Use accessibility service to detect application launch or activation event. Shortcut is not needed.</string>
+    <string name="accessibility_service_enable_guide">Frequaw needs the Accessibility Services permission to detect app launching.\nFrequaw uses accessibility service features only to detect foreground app changes. \n\nIn the accessibility management screen(or in \"Installed services\" in some devices), find Frequaw and enable it. Shortcut is not necessary.\n\nIf you have already enabled it, please ignore this message.\nIf this message is appeared again even you enabled it, please turn off and on again the accessibility permission.</string>
+
+    <string name="widget_accessibility_service_is_not_running">Frequaw accessibility service is not running.</string>
+    <string name="widget_accessibility_service_is_not_running_desc">Accessibility service should be turned on to save app launching events. </string>
+
+    <string name="battery_optimization_disable_guide">Battery optimization could affect to Frequaw.</string>
+    <string name="battery_optimization_disable_guide_desc">Disabling it could make Frequaw working more stable.</string>
+    <string name="battery_optimization_disable_guide_dialog">Disable battery optimization for Frequaw could make Frequaw service more stable.  \n\nThis setting is not required for Frequaw, but if you have experience malfunction of Frequaw accessibility service, disable battery optimization might can help about this.\nTo disable it, open the battery optimization setting, select \"All app\" at the list, find Frequaw setting, and disable it.</string>
+    <string name="battery_optimization_activity_not_found">The battery optimization setting activity couldn\'t be found on this device. Please disable it manually in the device\'s Setting app.</string>
+
+    <string name="usage_stats_permission_toast">Please allow the Usage stats access permission to Frequaw.</string>
+    <string name="usage_stats_permission_not_granted">Usage stats access permission is not granted to Frequaw.</string>
+    <string name="usage_stats_not_available_in_this_device">Usage stats information is not available in this device.</string>
+    <string name="usage_stats_only_latest_android_os">Usage stats information is available on Android 10 or above.</string>
+    <string name="usage_stats_permission_dialog">To get apps\' usage information, the usage stats permission is required.\n\nPlease grant permission to Frequaw at Usage stats setting page.</string>
+
+    <string name="tutorial_1">Frequaw is an application that provides widgets with app icons arranged in the order they are frequently used.</string>
+    <string name="tutorial_2">Frequaw can sort apps by several methods. Please select one after the tutorial is over. You can change it anytime. Each method needs different permissions. Follow the instruction to grant permission that appear after the selecting page.</string>
+    <string name="tutorial_3">Just add the Frequaw widget to your home launcher and resize it to your liking. App icons are automatically added and sorted. At first, all the icons are randomly placed, but as you use your phone, they will be sorted in the order of the apps you use most often.</string>
+    <string name="tutorial_4">You can customize widgets at Frequaw setting screen. You can also choose apps to be blocked, or be shown.</string>
+    <string name="tutorial_5">If you see the yellow dot in the widget, there is something wrong while updating widget. Please click it and see the message at the bottom of the screen to fix it.</string>
+    <string name="tutorial_6">You can create multiple widgets with different settings. Add more widgets with your styles.</string>
+    <string name="tutorial_7">Now it\'s time to enjoy Frequaw!</string>
+    <string name="tutorial_close">Exit tutorial</string>
+    <string name="tutorial_prev">Previous</string>
+    <string name="tutorial_next">Next</string>
+
+    <string name="select_detect_mode_launch_count">Sort by app launch count</string>
+    <string name="select_detect_mode_launch_count_desc">Requires Accessibility service permission.\nFrequaw uses accessibility service features only to detect foreground app changes. \n\nFrequaw directly receives the launch or activation event of apps, records the count of events, and uses this information to sort apps by launching count in the widget.</string>
+    <string name="select_detect_mode_usage_time">Sort by app usage time</string>
+    <string name="select_detect_mode_usage_time_desc">Requires Usage stats access permission.\n\nFrequaw accesses to the app usage stats which is recorded at the device to get total usage times of apps, and use this information to sort apps by usage times in the widget.\n\nApp usage time is the time spent using the app from a month past until now.</string>
+    <string name="select_detect_mode_recommend">Sort by recommendation</string>
+    <string name="select_detect_mode_recommend_desc">Requires Accessibility service permission.\n\nSorting app by the recommendation that calculated comprehensively using app launched dates, launched time, and launched counts.</string>
+    <string name="select_detect_mode_recommend_priority_title">Recommendation priority :</string>
+    <string name="select_detect_mode_recommend_priority_time">The time that launched</string>
+    <string name="select_detect_mode_recommend_priority_balanced">Balanced</string>
+    <string name="select_detect_mode_recommend_priority_count">Launched count</string>
+    <string name="select_detect_mode_recent">Sort by recent launched</string>
+    <string name="select_detect_mode_recent_desc">Requires Accessibility service permission.\n\nSorting app in order of executed(activated) most recently.\nUse Accessibility service to gather information and sort.\nThe word \"Activated\" means that not only just launched, but also all of cases that the app becomes \'foreground\' state, such as a part of the app is shown or switched again.\n\nWidget updates are not real-time, so sometimes the recently launched app may not be the first.</string>
+
+    <string name="pro_mode_manage_disable_pro_mode">Deactivate Pro-mode</string>
+    <string name="pro_mode_manage_disable_pro_mode_desc">Pro-mode features will be disabled. Ads will be hidden also.</string>
+    <string name="pro_mode_manage_enable_pro_mode">Activate Pro-mode</string>
+    <string name="pro_mode_manage_enable_pro_mode_desc">Use Pro-mode features with ads.\n\nHere are Pro-mode-only features. Some features which will be added later would be only available on the Pro-mode.\n- Pin the selected app to the front of the widget\n- Icons shape setting\n- Icon packs support</string>
+
+    <string name="pro_mode_induce_dialog_title">Pro-mode feature</string>
+    <string name="pro_mode_induce_dialog_message">This feature is available on the pro-mode.\nPro-mode is disabled currently. Would you like to activate the pro-mode?</string>
+    <string name="pro_mode_induce_pro_mode_only">&#160;(Pro-mode only!)</string>
+
+    <string name="icon_style_use_system_default">Use default shape</string>
+    <string name="icon_style_circle">Circle</string>
+    <string name="icon_style_squircle">Squircle</string>
+    <string name="icon_style_square">Square</string>
+    <string name="icon_style_rounded_squire">Squire with rounded corners</string>
+    <string name="icon_style_apply_shape_force">Force all icons to be clipped into the selected shape.</string>
+    <string name="icon_style_no_icon_pack">No icon pack</string>
+</resources>

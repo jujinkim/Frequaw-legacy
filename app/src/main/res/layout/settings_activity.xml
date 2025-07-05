@@ -1,0 +1,274 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.jujinkim.frequaw.viewmodel.SettingViewModel" />
+        <import type="android.view.View" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <!-- ToolBar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/app_name"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:includeFontPadding="false"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:text="@string/app_name_full"
+                        android:includeFontPadding="false"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/lyt_widgetSettingMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:onClick="@{()->viewModel.openWidgetSettingContextMenu()}"
+                    android:clickable="@{viewModel.settingContextMenuVisibility == View.VISIBLE}">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="@{viewModel.settingWidgetStr}"
+                        android:textStyle="bold"
+                        tools:text="@string/default_setting"
+                        />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/menu_icon"
+                        app:tint="@color/text_color"
+                        android:layout_marginStart="4dp"
+                        android:visibility="@{viewModel.settingContextMenuVisibility, default=visible}"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <!-- Main contents -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <!-- Compose View -->
+            <androidx.compose.ui.platform.ComposeView
+                android:id="@+id/settings_compose_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!-- Widget Preview -->
+            <LinearLayout
+                android:id="@+id/settings_widget_preview"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:orientation="vertical"
+                android:touchscreenBlocksFocus="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:descendantFocusability="afterDescendants"
+                android:background="@color/preview_bg"
+                android:alpha="0.25"
+                android:layout_gravity="end|top"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:visibility="@{viewModel.widgetPreviewVisibility}">
+                <TextView
+                    android:id="@+id/settings_widget_preview_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/widget_title_height"
+                    android:text="@string/app_name_only"
+                    android:gravity="center"
+                    android:background="@color/preview_title"/>
+                <LinearLayout
+                    android:id="@+id/settings_widget_preview_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@color/preview_list"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Usage stat bar -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/settings_usage_message_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:background="@drawable/bg_permission_message_bar"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="@{(v) -> viewModel.onUsageStatsLayoutClicked(v.getContext())}"
+            android:visibility="@{viewModel.usageUsagePermissionLayoutVisibility}">
+            <TextView
+                android:id="@+id/settings_usage_message_bar_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/usage_stats_permission_not_granted"
+                android:paddingHorizontal="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/settings_usage_message_bar_desc"
+                app:layout_constraintEnd_toStartOf="@id/settings_usage_message_bar_open"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintVertical_chainStyle="packed"/>
+            <TextView
+                android:id="@+id/settings_usage_message_bar_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/general_usage_stats_desc"
+                android:paddingHorizontal="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/settings_usage_message_bar_title"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/settings_usage_message_bar_open"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintVertical_chainStyle="packed"
+                android:textSize="11sp"/>
+            <TextView
+                android:id="@+id/settings_usage_message_bar_open"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/open"
+                android:gravity="end|center_vertical"
+                android:paddingHorizontal="20dp"
+                android:textColor="@color/light_blue_600"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Accessibility message bar -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/settings_accessibility_message_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:background="@drawable/bg_permission_message_bar"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="@{(v) -> viewModel.onAccessibilityLayoutClicked(v.getContext())}"
+            android:visibility="@{viewModel.accessibilityPermissionLayoutVisibility}">
+            <TextView
+                android:id="@+id/settings_accessibility_message_bar_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_accessibility_service_is_not_running"
+                android:paddingHorizontal="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/settings_accessibility_message_bar_desc"
+                app:layout_constraintEnd_toStartOf="@id/settings_accessibility_message_bar_open"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintVertical_chainStyle="packed"/>
+            <TextView
+                android:id="@+id/settings_accessibility_message_bar_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_accessibility_service_is_not_running_desc"
+                android:paddingHorizontal="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/settings_accessibility_message_bar_title"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/settings_accessibility_message_bar_open"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintVertical_chainStyle="packed"
+                android:textSize="10sp"/>
+            <TextView
+                android:id="@+id/settings_accessibility_message_bar_open"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/open"
+                android:gravity="end|center_vertical"
+                android:paddingHorizontal="20dp"
+                android:textColor="@color/light_blue_600"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- Battery optimization message bar -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/settings_battery_message_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:background="@drawable/bg_permission_message_bar"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="@{(v) -> viewModel.onBatteryOptimizationLayoutClicked(v.getContext())}"
+            android:visibility="@{viewModel.batteryOptimizationLayoutVisibility}">
+            <TextView
+                android:id="@+id/settings_battery_message_bar_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_optimization_disable_guide"
+                android:paddingHorizontal="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/settings_battery_message_bar_desc"
+                app:layout_constraintEnd_toStartOf="@id/settings_battery_message_bar_open"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintVertical_chainStyle="packed"/>
+            <TextView
+                android:id="@+id/settings_battery_message_bar_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/battery_optimization_disable_guide_desc"
+                android:paddingHorizontal="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/settings_battery_message_bar_title"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/settings_battery_message_bar_open"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintVertical_chainStyle="packed"
+                android:textSize="10sp"/>
+            <TextView
+                android:id="@+id/settings_battery_message_bar_open"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/open"
+                android:gravity="end|center_vertical"
+                android:paddingHorizontal="20dp"
+                android:textColor="@color/light_blue_600"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</layout>

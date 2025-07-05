@@ -1,0 +1,24 @@
+Frequaw
+Copyright 2024 Jujin Kim
+
+This product is licensed under the MIT License.
+
+This product includes software developed by Jujin Kim (https://jujinkim.com).
+
+## Third-party Software
+
+This project uses the following third-party libraries:
+
+### Android and AndroidX Libraries
+- Android SDK (Apache License 2.0)
+- AndroidX Libraries (Apache License 2.0)
+- Jetpack Compose (Apache License 2.0)
+
+### Other Libraries
+- Gson (Apache License 2.0)
+- Kotlin Coroutines (Apache License 2.0)
+- HSV Alpha Color Picker (Apache License 2.0)
+- GoDaddy Color Picker Compose (Apache License 2.0)
+
+For the full list of dependencies and their licenses, please run:
+./gradlew app:dependencies

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/frequaw_widget"
+    android:initialLayout="@layout/frequaw_widget"
+    android:minWidth="120dp"
+    android:minHeight="60dp"
+    android:previewImage="@drawable/frequaw_preview"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="1800000"
+    android:configure="com.jujinkim.frequaw.ui.MainActivity"
+    android:widgetFeatures="reconfigurable"
+    android:widgetCategory="home_screen" />

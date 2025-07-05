@@ -1,0 +1,97 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'com.google.android.gms.oss-licenses-plugin'
+    id 'org.jetbrains.kotlin.plugin.compose' version "${kotlin_version}"
+}
+
+android {
+    namespace 'com.jujinkim.frequaw'
+
+    compileSdkVersion 35
+
+    defaultConfig {
+        applicationId "com.jujinkim.frequaw"
+        minSdkVersion 23
+        targetSdkVersion 35
+        versionCode 172
+        versionName "1.72"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures {
+        viewBinding true
+        compose true
+    }
+
+    bundle {
+        storeArchive {
+            enable = false
+        }
+    }
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:${kotlin_version}"
+    implementation 'androidx.core:core-ktx:1.16.0'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1"
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.preference:preference-ktx:1.2.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.9.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.0'
+    implementation 'com.google.android.gms:play-services-oss-licenses:17.1.0'
+    implementation 'com.github.martin-stone:hsv-alpha-color-picker-android:3.0.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
+    implementation 'com.google.code.gson:gson:2.11.0'
+
+    // compose
+    implementation("androidx.compose.ui:ui:${compose_version}")
+    // Tooling support (Previews, etc.)
+    implementation("androidx.compose.ui:ui-tooling:${compose_version}")
+    // Foundation (Border, Background, Box, Image, Scroll, shapes, animations, etc.)
+    implementation("androidx.compose.foundation:foundation:${compose_version}")
+    // Material Design
+    implementation("androidx.compose.material:material:${compose_version}")
+    // Material design icons
+    implementation("androidx.compose.material:material-icons-core:1.7.8")
+    implementation("androidx.compose.material:material-icons-extended:1.7.8")
+    // Integration with observables
+    implementation("androidx.compose.runtime:runtime-livedata:${compose_version}")
+    // ColorPicker
+    implementation 'com.godaddy.android.colorpicker:compose-color-picker:0.5.1'
+    // with Android ColorInt extensions
+    implementation 'com.godaddy.android.colorpicker:compose-color-picker-android:0.5.1'
+    // ViewModel integration
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.9.0'
+
+    // Google play
+    implementation 'com.google.android.play:review:2.0.2'
+    implementation 'com.google.android.play:review-ktx:2.0.2'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+}

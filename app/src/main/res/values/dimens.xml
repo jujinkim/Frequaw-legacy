@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="about_button_width">220dp</dimen>
+    <dimen name="about_button_height">60dp</dimen>
+    <dimen name="about_icon_size">120dp</dimen>
+
+    <dimen name="widget_title_height">40dp</dimen>
+
+    <dimen name="tutorial_btn_width">120dp</dimen>
+    <dimen name="tutorial_btn_height">60dp</dimen>
+    <dimen name="tutorial_btn_margin">10dp</dimen>
+    <dimen name="tutorial_btn_textSize">12sp</dimen>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string-array name="select_app_mode">
+        <item>@string/blocklist</item>
+        <item>@string/allowlist</item>
+    </string-array>
+
+    <string-array name="sorting_method_value">
+        <item>frequently</item>
+        <item>time</item>
+    </string-array>
+
+    <string-array name="sorting_direction">
+        <item>@string/sorting_direction_tl</item>
+        <item>@string/sorting_direction_tr</item>
+        <item>@string/sorting_direction_bl</item>
+        <item>@string/sorting_direction_br</item>
+    </string-array>
+
+    <string-array name="sorting_direction_value">
+        <item>top_left</item>
+        <item>top_right</item>
+        <item>bottom_left</item>
+        <item>bottom_right</item>
+    </string-array>
+</resources>

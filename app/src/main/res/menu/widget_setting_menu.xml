@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/widget_setting_menu_open_default_setting"
+        android:title="@string/open_default_setting" />
+    <item
+        android:id="@+id/widget_setting_menu_reset_to_default_setting"
+        android:title="@string/reset_to_default_setting" />
+    <item
+        android:id="@+id/widget_setting_menu_erase_this_widget_setting"
+        android:title="@string/erase_this_widget_setting" />
+</menu>
