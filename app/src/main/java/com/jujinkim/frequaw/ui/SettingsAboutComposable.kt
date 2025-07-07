@@ -158,7 +158,7 @@ fun SettingsAboutComposable() = Column(
     TextButton(
         modifier = Modifier.fillMaxWidth(),
         onClick = {
-            val url = "https://github.com/jujinkim/Frequaw-archive"
+            val url = "https://github.com/jujinkim/Frequaw-legacy"
             context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
         }
     ) {

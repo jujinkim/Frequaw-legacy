@@ -25,7 +25,7 @@ Frequaw is an Android home screen widget that tracks and displays your most freq
 ## Project Structure
 
 ```
-Frequaw-archive/
+Frequaw-legacy/
 ├── app/                           # Main application module
 │   ├── src/main/java/.../frequaw/
 │   │   ├── adapter/              # RecyclerView adapters
@@ -84,8 +84,8 @@ Different repositories handle app usage tracking:
 
 ```bash
 # Clone the repository
-git clone https://github.com/jujinkim/Frequaw-archive.git
-cd Frequaw-archive
+git clone https://github.com/jujinkim/Frequaw-legacy.git
+cd Frequaw-legacy
 
 # Build debug APK
 ./gradlew assembleDebug
@@ -120,7 +120,7 @@ Contributions are welcome! Please:
 4. Run tests and lint checks
 5. Submit a pull request
 
-For bug reports and feature requests, please use the [issue tracker](https://github.com/jujinkim/Frequaw-archive/issues).
+For bug reports and feature requests, please use the [issue tracker](https://github.com/jujinkim/Frequaw-legacy/issues).
 
 ## Maintainance
 By [Jujin Kim](https://jujinkim.com) @ [Cozelsil](https://cozelsil.com) and some contributors.
