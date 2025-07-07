@@ -15,8 +15,8 @@ android {
         applicationId "com.jujinkim.frequaw"
         minSdkVersion 23
         targetSdkVersion 35
-        versionCode 172
-        versionName "1.72"
+        versionCode 173
+        versionName "1.73"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
