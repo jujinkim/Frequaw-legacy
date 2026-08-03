@@ -40,7 +40,7 @@
     <string name="about_app_info">앱 정보 열기</string>
     <string name="about_store">스토어 페이지 열기</string>
     <string name="about_frequaw2">소식: Frequaw2가 나왔어요</string>
-    <string name="about_frequaw2_desc">Frequaw Legacy는 더 이상 활발히 개발되지 않습니다. 이 앱을 새롭게 다시 만든 Frequaw2가 Play 스토어에 출시되었습니다.</string>
+    <string name="about_frequaw2_desc">Frequaw Legacy는 더 이상 업데이트되지 않지만, 소스코드가 공개되어 있고 지금처럼 계속 사용하실 수 있습니다. 굳이 옮기지 않으셔도 됩니다.\n\n같은 개발자가 새로 만든 후속작 Frequaw2가 Play 스토어에 있습니다. 궁금하시면 한번 둘러보세요.</string>
     <string name="accessibility_service_description">다른 앱의 실행 및 활성화를 감지하기 위해 접근성 서비스를 사용합니다. 바로가기는 불필요합니다.</string>
     <string name="accessibility_service_enable_guide">Frequaw Legacy가 앱 실행을 감지하려면 접근성 서비스 권한이 필요합니다. \nFrequaw Legacy에서는 실행된 앱 변경 감지 용도로만 접근성 서비스 기능을 사용합니다.\n\n접근성 관리자 화면(몇몇 단말에선 \"설치된 서비스\" 안에 있음)에서 \"Frequaw Legacy\"를 찾아 활성화시켜주세요. 바로가기는 필요하지 않습니다.\n\n이미 활성화하셨다면, 이 메시지는 무시해도 좋습니다.\n활성화했지만 계속 이 메세지가 뜬다면, 접근성 권한을 껏다가 다시 켜주세요.</string>
     <string name="close">닫기</string>
