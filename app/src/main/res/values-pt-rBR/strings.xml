@@ -109,6 +109,8 @@
     <string name="about_open_source">Informação de códigos públicos</string>
     <string name="about_app_info">Abrir informações do app</string>
     <string name="about_store">Abrir página na Play Store</string>
+    <string name="about_frequaw2">Novidade: chegou o Frequaw2</string>
+    <string name="about_frequaw2_desc">O Frequaw Legacy não está mais em desenvolvimento ativo. O Frequaw2, uma versão totalmente refeita deste app, já está disponível na Play Store.</string>
     <string name="about_issue_suggestion">Reportar bugs ou sugestões</string>
     <string name="accessibility_service_description">Usar o serviço de Acessibilidade para detectar a abertura de apps ou eventos de ativação. O atalho não é necessário.</string>
     <string name="accessibility_service_enable_guide">O Frequaw Legacy precisa da permissão dos Serviços de Acessibilidade para detectar o lançamento de aplicativos.\nO Frequaw Legacy usa recursos dd serviço de acessibilidade apenas para detectar alterações no aplicativo em primeiro plano. \n\nNa tela de gerenciamento de acessibilidade (ou em \"Serviços instalados\" em alguns dispositivos), encontre Frequaw Legacy e o habilite. Atalho não é necessário.\n\nSe você já habilitou, por favor, ignore esta mensagem.\nSe esta mensagem for exibida novamente, mesmo que você a habilitou, por favor, desligue e ligue novamente a permissão de acessibilidade.</string>

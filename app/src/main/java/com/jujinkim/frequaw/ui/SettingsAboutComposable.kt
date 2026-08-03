@@ -80,6 +80,36 @@ fun SettingsAboutComposable() = Column(
             .padding(8.dp)
     )
 
+    // Frequaw2 news
+    TextButton(
+        modifier = Modifier.fillMaxWidth(),
+        onClick = {
+            val frequaw2PackageName = "kim.jujin.frequaw"
+            AlertDialog.Builder(context)
+                .setMessage(R.string.about_frequaw2_desc)
+                .setPositiveButton(R.string.about_store) { _, _ ->
+                    try {
+                        context.startActivity(
+                            Intent(
+                                Intent.ACTION_VIEW,
+                                Uri.parse("market://details?id=$frequaw2PackageName"))
+                        )
+                    } catch (e: ActivityNotFoundException) {
+                        context.startActivity(
+                            Intent(
+                                Intent.ACTION_VIEW,
+                                Uri.parse("https://play.google.com/store/apps/details?id=$frequaw2PackageName"))
+                        )
+                    }
+                }
+                .setNegativeButton(R.string.close, null)
+                .create()
+                .show()
+        }
+    ) {
+        Text(text = stringResource(R.string.about_frequaw2))
+    }
+
     // Open app info
     TextButton(
         modifier = Modifier.fillMaxWidth(),
