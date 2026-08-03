@@ -7,7 +7,7 @@
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/light_blue_600</item>
         <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
+        <!-- Status bar color. API 35+ 에서는 edge-to-edge 강제로 무시됨 (API 23~34 전용) -->
         <item name="android:statusBarColor">@android:color/background_light</item>
         <item name="android:windowLightStatusBar">true</item>
         <!-- Customize your theme here. -->
