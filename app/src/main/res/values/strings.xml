@@ -157,8 +157,8 @@
     <string name="about_open_source">Open-source information</string>
     <string name="about_app_info">Open app information</string>
     <string name="about_store">Open the store page</string>
-    <string name="about_frequaw2">News: Frequaw2 is here</string>
-    <string name="about_frequaw2_desc">Frequaw Legacy won\'t receive further updates, but its source code is open and it will keep working as-is — you don\'t need to switch. Frequaw2, a rebuilt successor by the same developer, is now available on the Play Store if you\'d like to try it.</string>
+    <string name="about_frequaw2">New Frequaw is here</string>
+    <string name="about_frequaw2_desc">Frequaw Legacy won\'t receive further updates, but its source code is open and it will keep working as-is — you don\'t need to switch. New Frequaw, a rebuilt successor by the same developer, is now available on the Play Store if you\'d like to try it.</string>
     <string name="about_issue_suggestion">Report bugs or suggestions</string>
     <string name="about_github_repo">View source code on GitHub</string>
     <string name="about_special_thanks" translatable="false">Special thanks</string>
