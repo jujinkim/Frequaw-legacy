@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Frequaw setting</string>
+    <string name="app_name">Frequaw Legacy setting</string>
     <string name="app_name_full">Frequently Used App Widget</string>
-    <string name="app_name_only" translatable="false">Frequaw</string>
+    <string name="app_name_only" translatable="false">Frequaw Legacy</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="yes">Yes</string>
@@ -104,9 +104,9 @@
     <string name="general_detect_mode">Sort apps by</string>
     <string name="general_detect_mode_accessibility">App launching count(Using Accessibility service)</string>
     <string name="general_detect_mode_usage_stats">App usage time (Using Usage stats information)</string>
-    <string name="general_reset_app_list">Clear all apps launch counts that collected by Frequaw</string>
+    <string name="general_reset_app_list">Clear all apps launch counts that collected by Frequaw Legacy</string>
     <string name="general_reset_app_each">Clear each app launch history</string>
-    <string name="general_reset_app_list_warning">All apps\' launch counts that Frequaw has collected will be cleared and reset. This can\'t be undo. Continue?</string>
+    <string name="general_reset_app_list_warning">All apps\' launch counts that Frequaw Legacy has collected will be cleared and reset. This can\'t be undo. Continue?</string>
     <string name="general_reset_app_list_done">App launch history has been cleared.</string>
     <string name="general_set_launcher_package_name">Set the home launcher package name manually</string>
     <string name="general_set_launcher_package_name_desc">If the activiated home launcher\'s package name is not the same as default, please enter the home launcher\'s package name that is currently activated. In most cases, you do not need to set this setting.</string>
@@ -118,11 +118,11 @@
     <string name="general_accessibility">Accessibility service grant state</string>
     <string name="general_accessibility_desc">To sort by app launch count, accessibility service permission is required to detect app launch.\nIf permission is granted, the widget will be updated immediately when returning to the home screen.</string>
     <string name="general_battery_optimization">Battery optimization disabled state</string>
-    <string name="general_battery_optimization_desc">Disabling it could make Frequaw more stable.</string>
+    <string name="general_battery_optimization_desc">Disabling it could make Frequaw Legacy more stable.</string>
     <string name="general_usage_stats">Usage stats permission state</string>
     <string name="general_usage_stats_desc">To sort apps by usage time, usage stats permission is required to get apps usage information.</string>
     <string name="general_export_import_setting">Export &amp; Import setting</string>
-    <string name="general_export_import_setting_desc">You can export the currently configured Frequaw settings and the app launch history that Frequaw has collected, or import the settings and history that have been exported.</string>
+    <string name="general_export_import_setting_desc">You can export the currently configured Frequaw Legacy settings and the app launch history that Frequaw Legacy has collected, or import the settings and history that have been exported.</string>
     <string name="general_export_import_setting_export">Export</string>
     <string name="general_export_import_setting_import">Import</string>
     <string name="general_export_import_setting_fail_to_export">Export canceled or failed.</string>
@@ -130,9 +130,9 @@
     <string name="general_export_import_setting_import_double_check">Are you sure to import the setting? This will overwrite current settings and app launched counts.</string>
     <string name="general_export_import_exported_done">The setting has been exported.</string>
     <string name="general_export_import_imported_done">The setting has been imported.</string>
-    <string name="general_export_import_select_setting_file_from_frequaw">Please choose the setting text file that was exported from Frequaw.</string>
+    <string name="general_export_import_select_setting_file_from_frequaw">Please choose the setting text file that was exported from Frequaw Legacy.</string>
     <string name="general_tutorial">Open tutorial</string>
-    <string name="general_about">About Frequaw</string>
+    <string name="general_about">About Frequaw Legacy</string>
     <string name="general_detected_parenthesis">(Detected)</string>
     <string name="general_error_fail_to_open_activity_activitynotfound">Fail to open the setting page. Please open it manually from the device\'s setting.</string>
     <string name="general_error_fail_to_open_activity_unknown">An unknown error has occurred while open the setting. Please open it manually from the device\'s setting.</string>
@@ -161,43 +161,43 @@
     <string name="about_github_repo">View source code on GitHub</string>
     <string name="about_special_thanks" translatable="false">Special thanks</string>
     <string name="about_special_thanks_desc">Thanks to everyone who helped develop this app.\n\n• Marcio de Andrade (Portuguese translation)\n• Quinlan Vannatter (A lot of support)\n• Reviewers\n• And, thank you for using this app.</string>
-    <string name="about_never_send_collected_app_info">Frequaw never sends the collected app launching count data to the server or somewhere.\nThis data is only saved in your device.\nActually, we don\'t have any interest which apps are launched from your device.</string>
+    <string name="about_never_send_collected_app_info">Frequaw Legacy never sends the collected app launching count data to the server or somewhere.\nThis data is only saved in your device.\nActually, we don\'t have any interest which apps are launched from your device.</string>
 
     <string name="permission_error_dialog_content">There is some error while getting permission, so widgets are not able to be updated properly. Please check bottom message bers and fix them.</string>
 
-    <string name="accessibility_service_label" translatable="false">Frequaw</string>
+    <string name="accessibility_service_label" translatable="false">Frequaw Legacy</string>
     <string name="accessibility_service_description">Use accessibility service to detect application launch or activation event. Shortcut is not needed.</string>
-    <string name="accessibility_service_enable_guide">Frequaw needs the Accessibility Services permission to detect app launching.\nFrequaw uses accessibility service features only to detect foreground app changes. \n\nIn the accessibility management screen(or in \"Installed services\" in some devices), find Frequaw and enable it. Shortcut is not necessary.\n\nIf you have already enabled it, please ignore this message.\nIf this message is appeared again even you enabled it, please turn off and on again the accessibility permission.</string>
+    <string name="accessibility_service_enable_guide">Frequaw Legacy needs the Accessibility Services permission to detect app launching.\nFrequaw Legacy uses accessibility service features only to detect foreground app changes. \n\nIn the accessibility management screen(or in \"Installed services\" in some devices), find Frequaw Legacy and enable it. Shortcut is not necessary.\n\nIf you have already enabled it, please ignore this message.\nIf this message is appeared again even you enabled it, please turn off and on again the accessibility permission.</string>
 
-    <string name="widget_accessibility_service_is_not_running">Frequaw accessibility service is not running.</string>
+    <string name="widget_accessibility_service_is_not_running">Frequaw Legacy accessibility service is not running.</string>
     <string name="widget_accessibility_service_is_not_running_desc">Accessibility service should be turned on to save app launching events. </string>
 
-    <string name="battery_optimization_disable_guide">Battery optimization could affect to Frequaw.</string>
-    <string name="battery_optimization_disable_guide_desc">Disabling it could make Frequaw working more stable.</string>
-    <string name="battery_optimization_disable_guide_dialog">Disable battery optimization for Frequaw could make Frequaw service more stable.  \n\nThis setting is not required for Frequaw, but if you have experience malfunction of Frequaw accessibility service, disable battery optimization might can help about this.\nTo disable it, open the battery optimization setting, select \"All app\" at the list, find Frequaw setting, and disable it.</string>
+    <string name="battery_optimization_disable_guide">Battery optimization could affect to Frequaw Legacy.</string>
+    <string name="battery_optimization_disable_guide_desc">Disabling it could make Frequaw Legacy working more stable.</string>
+    <string name="battery_optimization_disable_guide_dialog">Disable battery optimization for Frequaw Legacy could make Frequaw Legacy service more stable.  \n\nThis setting is not required for Frequaw Legacy, but if you have experience malfunction of Frequaw Legacy accessibility service, disable battery optimization might can help about this.\nTo disable it, open the battery optimization setting, select \"All app\" at the list, find Frequaw Legacy setting, and disable it.</string>
     <string name="battery_optimization_activity_not_found">The battery optimization setting activity couldn\'t be found on this device. Please disable it manually in the device\'s Setting app.</string>
 
-    <string name="usage_stats_permission_toast">Please allow the Usage stats access permission to Frequaw.</string>
-    <string name="usage_stats_permission_not_granted">Usage stats access permission is not granted to Frequaw.</string>
+    <string name="usage_stats_permission_toast">Please allow the Usage stats access permission to Frequaw Legacy.</string>
+    <string name="usage_stats_permission_not_granted">Usage stats access permission is not granted to Frequaw Legacy.</string>
     <string name="usage_stats_not_available_in_this_device">Usage stats information is not available in this device.</string>
     <string name="usage_stats_only_latest_android_os">Usage stats information is available on Android 10 or above.</string>
-    <string name="usage_stats_permission_dialog">To get apps\' usage information, the usage stats permission is required.\n\nPlease grant permission to Frequaw at Usage stats setting page.</string>
+    <string name="usage_stats_permission_dialog">To get apps\' usage information, the usage stats permission is required.\n\nPlease grant permission to Frequaw Legacy at Usage stats setting page.</string>
 
-    <string name="tutorial_1">Frequaw is an application that provides widgets with app icons arranged in the order they are frequently used.</string>
-    <string name="tutorial_2">Frequaw can sort apps by several methods. Please select one after the tutorial is over. You can change it anytime. Each method needs different permissions. Follow the instruction to grant permission that appear after the selecting page.</string>
-    <string name="tutorial_3">Just add the Frequaw widget to your home launcher and resize it to your liking. App icons are automatically added and sorted. At first, all the icons are randomly placed, but as you use your phone, they will be sorted in the order of the apps you use most often.</string>
-    <string name="tutorial_4">You can customize widgets at Frequaw setting screen. You can also choose apps to be blocked, or be shown.</string>
+    <string name="tutorial_1">Frequaw Legacy is an application that provides widgets with app icons arranged in the order they are frequently used.</string>
+    <string name="tutorial_2">Frequaw Legacy can sort apps by several methods. Please select one after the tutorial is over. You can change it anytime. Each method needs different permissions. Follow the instruction to grant permission that appear after the selecting page.</string>
+    <string name="tutorial_3">Just add the Frequaw Legacy widget to your home launcher and resize it to your liking. App icons are automatically added and sorted. At first, all the icons are randomly placed, but as you use your phone, they will be sorted in the order of the apps you use most often.</string>
+    <string name="tutorial_4">You can customize widgets at Frequaw Legacy setting screen. You can also choose apps to be blocked, or be shown.</string>
     <string name="tutorial_5">If you see the yellow dot in the widget, there is something wrong while updating widget. Please click it and see the message at the bottom of the screen to fix it.</string>
     <string name="tutorial_6">You can create multiple widgets with different settings. Add more widgets with your styles.</string>
-    <string name="tutorial_7">Now it\'s time to enjoy Frequaw!</string>
+    <string name="tutorial_7">Now it\'s time to enjoy Frequaw Legacy!</string>
     <string name="tutorial_close">Exit tutorial</string>
     <string name="tutorial_prev">Previous</string>
     <string name="tutorial_next">Next</string>
 
     <string name="select_detect_mode_launch_count">Sort by app launch count</string>
-    <string name="select_detect_mode_launch_count_desc">Requires Accessibility service permission.\nFrequaw uses accessibility service features only to detect foreground app changes. \n\nFrequaw directly receives the launch or activation event of apps, records the count of events, and uses this information to sort apps by launching count in the widget.</string>
+    <string name="select_detect_mode_launch_count_desc">Requires Accessibility service permission.\nFrequaw Legacy uses accessibility service features only to detect foreground app changes. \n\nFrequaw Legacy directly receives the launch or activation event of apps, records the count of events, and uses this information to sort apps by launching count in the widget.</string>
     <string name="select_detect_mode_usage_time">Sort by app usage time</string>
-    <string name="select_detect_mode_usage_time_desc">Requires Usage stats access permission.\n\nFrequaw accesses to the app usage stats which is recorded at the device to get total usage times of apps, and use this information to sort apps by usage times in the widget.\n\nApp usage time is the time spent using the app from a month past until now.</string>
+    <string name="select_detect_mode_usage_time_desc">Requires Usage stats access permission.\n\nFrequaw Legacy accesses to the app usage stats which is recorded at the device to get total usage times of apps, and use this information to sort apps by usage times in the widget.\n\nApp usage time is the time spent using the app from a month past until now.</string>
     <string name="select_detect_mode_recommend">Sort by recommendation</string>
     <string name="select_detect_mode_recommend_desc">Requires Accessibility service permission.\n\nSorting app by the recommendation that calculated comprehensively using app launched dates, launched time, and launched counts.</string>
     <string name="select_detect_mode_recommend_priority_title">Recommendation priority :</string>

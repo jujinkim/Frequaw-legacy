@@ -155,7 +155,7 @@ data class FrequawWidgetSettingData(
             _isTitleUpdateTimeVisible = value
         }
     var titleText: String
-        get() = _titleText ?: "Frequaw"
+        get() = _titleText ?: "Frequaw Legacy"
         set(value) {
             _titleText = value
         }
@@ -275,7 +275,7 @@ data class FrequawWidgetSettingData(
 
             _isTitleVisible = true,
             _isTitleUpdateTimeVisible = true,
-            _titleText = "Frequaw",
+            _titleText = "Frequaw Legacy",
             _appIconStyle = AppIconStyle.System,
             _appIconPackPackage = "",
             _isForceIconShapeClip = false,

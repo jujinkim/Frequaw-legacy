@@ -50,7 +50,7 @@ fun SettingsAboutComposable() = Column(
         context.packageManager.getApplicationIcon(BuildConfig.APPLICATION_ID)
             ?.toBitmap()
             ?.asImageBitmap() ?: ImageBitmap(1, 1),
-        contentDescription = "Frequaw App Icon",
+        contentDescription = "Frequaw Legacy App Icon",
         modifier = Modifier
             .align(Alignment.CenterHorizontally)
             .combinedClickable(

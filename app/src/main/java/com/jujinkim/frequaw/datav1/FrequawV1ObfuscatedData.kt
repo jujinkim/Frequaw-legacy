@@ -65,7 +65,7 @@ data class FrequawWidgetSettingData(
 
             isTitleVisible = true,
             isTitleUpdateTimeVisible = true,
-            titleText = "Frequaw",
+            titleText = "Frequaw Legacy",
             appIconStyle = AppIconStyle.System,
             appIconPackPackage = "",
             isForceIconShapeClip = false,

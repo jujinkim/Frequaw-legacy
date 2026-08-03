@@ -94,7 +94,7 @@ class ExportImportHelper(val activity: MainActivity) {
 
     fun export() {
         val fileName =
-            "FrequawSetting-${SimpleDateFormat("ddMMyyyy-hhmmss", Locale.getDefault()).format(Date())}.txt"
+            "FrequawLegacySetting-${SimpleDateFormat("ddMMyyyy-hhmmss", Locale.getDefault()).format(Date())}.txt"
         activityResultCreateDoc.launch(fileName)
     }
 

@@ -66,7 +66,7 @@ class ScreenDetectService : AccessibilityService() {
         super.onServiceConnected()
         Log.i("Frequaw", "onServiceConnected")
         PackageUtil.updateHomeLauncherPackageName(applicationContext)
-        Toast.makeText(applicationContext, "Frequaw service connected.", Toast.LENGTH_SHORT).show()
+        Toast.makeText(applicationContext, "Frequaw Legacy service connected.", Toast.LENGTH_SHORT).show()
     }
 
     override fun onInterrupt() {

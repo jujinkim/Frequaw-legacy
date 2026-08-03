@@ -154,7 +154,7 @@ object FrequawOldDataUpgrader {
 
         // Title text
         defaultWidgetSetting.titleText =
-            defaultPref.getString(KEY_TITLE_TEXT, "Frequaw") ?: "Frequaw"
+            defaultPref.getString(KEY_TITLE_TEXT, "Frequaw Legacy") ?: "Frequaw Legacy"
 
         // Icon style
         defaultWidgetSetting.appIconStyle =
@@ -431,7 +431,7 @@ object FrequawOldDataUpgrader {
 
         @SerializedName("d$KEY_IS_TITLE_VISIBLE") val isTitleVisible: Boolean = true,
         @SerializedName("d$KEY_IS_TITLE_UPDATE_TIME_VISIBLE") val isTitleUpdateTimeVisible: Boolean = true,
-        @SerializedName("d$KEY_TITLE_TEXT") val titleText: String = "Frequaw",
+        @SerializedName("d$KEY_TITLE_TEXT") val titleText: String = "Frequaw Legacy",
         @SerializedName("f$KEY_ICON_STYLE") val appIconStyle: Int = 0,
         @SerializedName("f$KEY_ICON_PACK_PKG") val appIconPackPackage: String = "",
         @SerializedName("f$KEY_ICON_SHAPE_FORCE") val isForceIconShapeClip: Boolean = false,

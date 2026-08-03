@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Frequaw 설정</string>
+    <string name="app_name">Frequaw Legacy 설정</string>
     <string name="header_app_list">앱 목록</string>
     <string name="header_badge">알림 배지</string>
     <string name="header_visualization">모양</string>
@@ -30,7 +30,7 @@
     <string name="visual_app_name_bg">앱 이름 배경색</string>
     <string name="general_accessibility">접근성 서비스 권한 상태</string>
     <string name="general_accessibility_desc">앱 실행 횟수로 정렬하려면, 앱 실행을 감지하기 위해 접근성 권한이 필요합니다.\n권한이 활성화되면 홈 화면으로 돌아갔을 때 위젯이 즉시 업데이트됩니다.</string>
-    <string name="general_about">Frequaw 정보</string>
+    <string name="general_about">Frequaw Legacy 정보</string>
     <string name="blocklist">차단 목록</string>
     <string name="blocklist_desc">아래 목록에서 체크된 앱은 위젯에 보이지 않습니다.</string>
     <string name="allowlist">허용 목록</string>
@@ -40,7 +40,7 @@
     <string name="about_app_info">앱 정보 열기</string>
     <string name="about_store">스토어 페이지 열기</string>
     <string name="accessibility_service_description">다른 앱의 실행 및 활성화를 감지하기 위해 접근성 서비스를 사용합니다. 바로가기는 불필요합니다.</string>
-    <string name="accessibility_service_enable_guide">Frequaw가 앱 실행을 감지하려면 접근성 서비스 권한이 필요합니다. \nFrequaw에서는 실행된 앱 변경 감지 용도로만 접근성 서비스 기능을 사용합니다.\n\n접근성 관리자 화면(몇몇 단말에선 \"설치된 서비스\" 안에 있음)에서 \"Frequaw\"를 찾아 활성화시켜주세요. 바로가기는 필요하지 않습니다.\n\n이미 활성화하셨다면, 이 메시지는 무시해도 좋습니다.\n활성화했지만 계속 이 메세지가 뜬다면, 접근성 권한을 껏다가 다시 켜주세요.</string>
+    <string name="accessibility_service_enable_guide">Frequaw Legacy가 앱 실행을 감지하려면 접근성 서비스 권한이 필요합니다. \nFrequaw Legacy에서는 실행된 앱 변경 감지 용도로만 접근성 서비스 기능을 사용합니다.\n\n접근성 관리자 화면(몇몇 단말에선 \"설치된 서비스\" 안에 있음)에서 \"Frequaw Legacy\"를 찾아 활성화시켜주세요. 바로가기는 필요하지 않습니다.\n\n이미 활성화하셨다면, 이 메시지는 무시해도 좋습니다.\n활성화했지만 계속 이 메세지가 뜬다면, 접근성 권한을 껏다가 다시 켜주세요.</string>
     <string name="close">닫기</string>
     <string name="yes">예</string>
     <string name="no">아니오</string>
@@ -58,8 +58,8 @@
     <string name="visual_title_visible">타이틀 바</string>
     <string name="visual_title_visible_desc_on">타이틀 바가 위젯에 표시됩니다.</string>
     <string name="visual_title_visible_desc_off">타이틀 바가 위젯에 표시되지 않습니다.</string>
-    <string name="general_reset_app_list">Frequaw가 수집한 모든 앱 실행 횟수 초기화</string>
-    <string name="general_reset_app_list_warning">Frequaw가 수집한 모든 앱 실행 횟수를 초기화합니다. 되돌릴 수 없습니다. 계속할까요?</string>
+    <string name="general_reset_app_list">Frequaw Legacy가 수집한 모든 앱 실행 횟수 초기화</string>
+    <string name="general_reset_app_list_warning">Frequaw Legacy가 수집한 모든 앱 실행 횟수를 초기화합니다. 되돌릴 수 없습니다. 계속할까요?</string>
     <string name="general_reset_app_list_done">앱 실행 기록이 초기화되었습니다.</string>
     <string name="visual_title_update_time_visible">업데이트 시간 보기</string>
     <string name="visual_title_update_time_visible_desc_on">마지막 업데이트 시간이 위젯의 타이틀 바에 표시됩니다.</string>
@@ -69,10 +69,10 @@
     <string name="app_list_show_zero_launched_desc_off">실행 기록이 없는 앱은 위젯에 나타나지 않습니다.</string>
     <string name="general_set_launcher_package_name">수동으로 홈런처 패키지 이름 설정</string>
     <string name="general_set_launcher_package_name_desc">만약 사용중인 홈 런처의 패키지이름이 기본값과 다르면, 사용중인 홈 런처의 패키지 이름을 적어주세요. 대부분의 경우에 이 설정은 건드릴 필요가 없습니다.</string>
-    <string name="tutorial_1">Frequaw는 앱 아이콘이 자주 사용하는 순서대로 정렬 된 위젯을 제공하는 애플리케이션입니다.</string>
-    <string name="tutorial_2">Frequaw는 여러가지 방법으로 앱을 정렬할 수 있습니다. 튜토리얼이 끝난 후 나오는 화면에서 선택해주세요. 나중에 변경할 수 있습니다. 방법마다 필요한 권한이 다릅니다. 방법 선택 후 나오는 안내에 따라 권한을 부여해주세요.</string>
-    <string name="tutorial_3">홈 런처에 Frequaw 위젯을 추가하고 원하는대로 크기를 조정하기만 하면 됩니다. 앱 아이콘이 자동으로 추가되고 정렬됩니다. 처음에는 모든 아이콘이 무작위로 배치되지만, 폰을 사용하다 보면 자주 사용하는 앱 순서대로 정렬될 것입니다.</string>
-    <string name="tutorial_4">Frequaw 설정 화면에서 위젯을 사용자 지정 설정할 수 있습니다. 차단하거나 표시할 앱을 선택할 수도 있습니다</string>
+    <string name="tutorial_1">Frequaw Legacy는 앱 아이콘이 자주 사용하는 순서대로 정렬 된 위젯을 제공하는 애플리케이션입니다.</string>
+    <string name="tutorial_2">Frequaw Legacy는 여러가지 방법으로 앱을 정렬할 수 있습니다. 튜토리얼이 끝난 후 나오는 화면에서 선택해주세요. 나중에 변경할 수 있습니다. 방법마다 필요한 권한이 다릅니다. 방법 선택 후 나오는 안내에 따라 권한을 부여해주세요.</string>
+    <string name="tutorial_3">홈 런처에 Frequaw Legacy 위젯을 추가하고 원하는대로 크기를 조정하기만 하면 됩니다. 앱 아이콘이 자동으로 추가되고 정렬됩니다. 처음에는 모든 아이콘이 무작위로 배치되지만, 폰을 사용하다 보면 자주 사용하는 앱 순서대로 정렬될 것입니다.</string>
+    <string name="tutorial_4">Frequaw Legacy 설정 화면에서 위젯을 사용자 지정 설정할 수 있습니다. 차단하거나 표시할 앱을 선택할 수도 있습니다</string>
     <string name="tutorial_close">튜토리얼 종료</string>
     <string name="tutorial_prev">이전</string>
     <string name="tutorial_next">다음</string>
@@ -101,16 +101,16 @@
     <string name="visual_advanced_enabled_desc_on">간격 값을 직접 설정할 수 있습니다.</string>
     <string name="visual_advanced_enabled_desc_off">간격 값들이 자동으로 설정됩니다.</string>
     <string name="header_visualization_advanced">모양 (고급)</string>
-    <string name="widget_accessibility_service_is_not_running">Frequaw 접근성 서비스가 실행중이지 않습니다.</string>
+    <string name="widget_accessibility_service_is_not_running">Frequaw Legacy 접근성 서비스가 실행중이지 않습니다.</string>
     <string name="widget_accessibility_service_is_not_running_desc">앱 실행 이벤트를 저장하기 위해선 접근성 서비스가 켜져있어야 합니다.</string>
-    <string name="battery_optimization_disable_guide">배터리 최적화 기능이 Frequaw에 영향을 줄 수 있습니다.</string>
-    <string name="battery_optimization_disable_guide_desc">비활성화하면 Frequaw가 더 안정적으로 작동할 수 있습니다.</string>
+    <string name="battery_optimization_disable_guide">배터리 최적화 기능이 Frequaw Legacy에 영향을 줄 수 있습니다.</string>
+    <string name="battery_optimization_disable_guide_desc">비활성화하면 Frequaw Legacy가 더 안정적으로 작동할 수 있습니다.</string>
     <string name="ignore">무시</string>
-    <string name="battery_optimization_disable_guide_dialog">Frequaw 배터리 최적화 비활성화는 Frequaw의 서비스를 더 안정적으로 만들 수 있습니다.\n\n이 설정은 Frequaw가 작동하는데 필수는 아닙니다만, 배터리 최적화 대상에서 Frequaw를 비활성화하면 접근성 서비스 문제에 도움이 될 수 있습니다.\n비활성화하시려면 배터리 최적화 설정을 열고, 리스트에서 \"전체 앱\"을 선택한 후 Frequaw 설정을 찾아 끄세요.</string>
+    <string name="battery_optimization_disable_guide_dialog">Frequaw Legacy 배터리 최적화 비활성화는 Frequaw Legacy의 서비스를 더 안정적으로 만들 수 있습니다.\n\n이 설정은 Frequaw Legacy가 작동하는데 필수는 아닙니다만, 배터리 최적화 대상에서 Frequaw Legacy를 비활성화하면 접근성 서비스 문제에 도움이 될 수 있습니다.\n비활성화하시려면 배터리 최적화 설정을 열고, 리스트에서 \"전체 앱\"을 선택한 후 Frequaw Legacy 설정을 찾아 끄세요.</string>
     <string name="general_battery_optimization">배터리 최적화 비활성화 상태</string>
-    <string name="general_battery_optimization_desc">비활성화하면 Frequaw 를 더 안정적으로 만드는데 도움이 됩니다.</string>
-    <string name="usage_stats_permission_toast">Frequaw에 사용정보 접근 권한을 허용해주세요.</string>
-    <string name="usage_stats_permission_not_granted">Frequaw에 사용정보 접근 권한이 없습니다.</string>
+    <string name="general_battery_optimization_desc">비활성화하면 Frequaw Legacy 를 더 안정적으로 만드는데 도움이 됩니다.</string>
+    <string name="usage_stats_permission_toast">Frequaw Legacy에 사용정보 접근 권한을 허용해주세요.</string>
+    <string name="usage_stats_permission_not_granted">Frequaw Legacy에 사용정보 접근 권한이 없습니다.</string>
     <string name="usage_stats_not_available_in_this_device">이 기기에서 \"사용정보 접근\"을 사용할 수 없습니다.</string>
     <string name="usage_stats_only_latest_android_os">\"사용정보 접근\"은 Android 10 이상에서만 사용할 수 있습니다.</string>
     <string name="general_detect_mode">앱 정렬 기준</string>
@@ -118,11 +118,11 @@
     <string name="general_detect_mode_usage_stats">사용 시간 (사용정보 접근)</string>
     <string name="general_usage_stats">사용정보 접근 권한 상태</string>
     <string name="general_usage_stats_desc">앱 사용 시간별로 정렬하려면, 앱의 사용 정보를 가져오기 위해 사용정보 접근 권한이 필요합니다.</string>
-    <string name="usage_stats_permission_dialog">사용정보 접근 권한이 있어야 앱의 사용 정보를 가져올 수 있습니다.\n\n사용정보 접근 권한 설정 페이지에서 Frequaw에게 권한을 허용해주세요.</string>
+    <string name="usage_stats_permission_dialog">사용정보 접근 권한이 있어야 앱의 사용 정보를 가져올 수 있습니다.\n\n사용정보 접근 권한 설정 페이지에서 Frequaw Legacy에게 권한을 허용해주세요.</string>
     <string name="app_name_full">자주 사용하는 앱 위젯</string>
     <string name="select_detect_mode_launch_count">앱 실행 횟수로 정렬</string>
     <string name="select_detect_mode_usage_time">앱 사용 시간으로 정렬</string>
-    <string name="select_detect_mode_launch_count_desc">접근성 서비스 권한이 필요합니다.\nFrequaw에서는 실행된 앱 변경 감지 용도로만 접근성 서비스 기능을 사용합니다.\n\nFrequaw가 직접 앱의 실행 또는 활성화 이벤트를 받아 횟수를 기록하고, 이 정보를 토대로 자주 쓰는 순서대로 위젯에 앱을 정렬합니다.</string>
+    <string name="select_detect_mode_launch_count_desc">접근성 서비스 권한이 필요합니다.\nFrequaw Legacy에서는 실행된 앱 변경 감지 용도로만 접근성 서비스 기능을 사용합니다.\n\nFrequaw Legacy가 직접 앱의 실행 또는 활성화 이벤트를 받아 횟수를 기록하고, 이 정보를 토대로 자주 쓰는 순서대로 위젯에 앱을 정렬합니다.</string>
     <string name="select_detect_mode_usage_time_desc">사용정보 접근 권한이 필요합니다.\n\n기기에 기록된 각 앱 사용 정보로부터 앱의 총 사용 시간을 얻어오고, 이 정보를 토대로 오래 쓴 순서대로 위젯에 앱을 정렬합니다.\n\n앱 사용 시간은 한 달 전부터 지금까지 사용한 시간입니다.</string>
     <string name="select">선택</string>
     <string name="about_issue_suggestion">버그 제보 &amp; 제안</string>
@@ -148,7 +148,7 @@
     <string name="battery_optimization_activity_not_found">이 기기에서 배터리 최적화 설정 액티비티를 찾을 수 없습니다. 기기의 설정 앱에서 직접 비활성화해주세요.</string>
     <string name="icon_style_squircle">스쿼클</string>
     <string name="tutorial_6">각기 다른 설정으로 위젯을 여러개 생성할 수 있습니다. 입맛에 맞추어 만들어보세요.</string>
-    <string name="tutorial_7">이제 Frequaw를 즐겨주세요!</string>
+    <string name="tutorial_7">이제 Frequaw Legacy를 즐겨주세요!</string>
     <string name="tutorial_5">만약 위젯에서 노란 점을 보셨다면, 위젯을 업데이트하는데 문제가 발생한 상황입니다. 클릭하시고 화면 아래의 메세지를 참고해서 고쳐주세요.</string>
     <string name="clear_app_history_ps_no_history">%s의 실행 기록이 없어요.</string>
     <string name="visual_title_text">타이틀 문구</string>
@@ -159,13 +159,13 @@
     <string name="general_export_import_setting">설정 내보내기 &amp; 가져오기</string>
     <string name="general_export_import_setting_import">가져오기</string>
     <string name="general_export_import_setting_export">내보내기</string>
-    <string name="general_export_import_setting_desc">현재 설정된 Frequaw 설정 및 Frequaw가 수집한 앱 실행 기록을 내보내거나, 내보냈던 설정 및 기록을 가져올 수 있습니다.</string>
+    <string name="general_export_import_setting_desc">현재 설정된 Frequaw Legacy 설정 및 Frequaw Legacy가 수집한 앱 실행 기록을 내보내거나, 내보냈던 설정 및 기록을 가져올 수 있습니다.</string>
     <string name="general_export_import_setting_import_double_check">설정을 가져오시겠습니까? 현재 설정과 앱 실행 횟수를 덮어씁니다.</string>
     <string name="general_export_import_setting_fail_to_import">가져오기가 취소됐거나 실패했습니다.</string>
     <string name="general_export_import_setting_fail_to_export">내보내기가 취소됐거나 실패했습니다.</string>
     <string name="general_export_import_imported_done">설정을 가져왔습니다.</string>
     <string name="general_export_import_exported_done">설정을 내보냈습니다.</string>
-    <string name="general_export_import_select_setting_file_from_frequaw">Frequaw에서 내보낸 설정 텍스트 파일을 선택해주세요.</string>
+    <string name="general_export_import_select_setting_file_from_frequaw">Frequaw Legacy에서 내보낸 설정 텍스트 파일을 선택해주세요.</string>
     <string name="general_error_fail_to_open_activity_activitynotfound">설정 페이지를 열지 못했습니다. 직접 폰 설정에서 열어주세요.</string>
     <string name="general_detected_parenthesis">(감지됨)</string>
     <string name="general_error_fail_to_open_activity_unknown">알 수 없는 에러가 발생했습니다. 직접 폰 설정 페이지에서 열어주세요.</string>
@@ -173,7 +173,7 @@
     <string name="select_detect_mode_recommend_desc">접근성 서비스 권한이 필요합니다.\n\n앱의 실행한 요일, 실행한 때, 실행 횟수를 종합적으로 계산하여 현재 가장 알맞은 앱을 추천순으로 정렬합니다.</string>
     <string name="select_detect_mode_recent">최근 실행 순으로 정렬</string>
     <string name="select_detect_mode_recent_desc">접근성 서비스 권한이 필요합니다.\n\n가장 최근에 실행(활성화) 된 순서대로 정렬합니다.\n접근성 서비스를 통해 수집된 실행 정보로 정렬합니다.\n\"활성화\"라는 뜻은 앱 실행 뿐만이 아니고 앱을 전환하거나 앱의 일부분이 보여지는 등 앱이 \'포어그라운드\' 상태가 되는 모든 경우를 의미합니다. \n\n위젯 업데이트는 실시간이 아니므로 최근 실행 앱이 맨 처음이 아닐 수도 있습니다.</string>
-    <string name="about_never_send_collected_app_info">Frequaw는 수집된 앱 실행 횟수 데이터를 서버나 다른 곳으로 절대 보내지 않습니다.\n이 데이터는 장치에만 저장됩니다.\n사실, 우리는 당신의 기기에서 어떤 앱이 실행되는지 관심이 없습니다.</string>
+    <string name="about_never_send_collected_app_info">Frequaw Legacy는 수집된 앱 실행 횟수 데이터를 서버나 다른 곳으로 절대 보내지 않습니다.\n이 데이터는 장치에만 저장됩니다.\n사실, 우리는 당신의 기기에서 어떤 앱이 실행되는지 관심이 없습니다.</string>
     <string name="open_default_setting">기본 설정 열기</string>
     <string name="reset_to_default_setting">기본 설정으로 되돌리기</string>
     <string name="save_n_close">저장하고 닫기</string>
